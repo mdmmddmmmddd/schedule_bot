@@ -2,7 +2,7 @@
 from datetime import time
 
 # === Telegram ===
-BOT_TOKEN = ""  # Токен Telegram-бота 
+BOT_TOKEN = "7945647615:AAFh3NFDGJDyzx8VdyFrziHz3Wy_EeHfg44"  # Токен Telegram-бота 
 
 # === База данных ===
 DATABASE_URL = "sqlite:///./schedule.db"  # SQLite для простоты, можно заменить на PostgreSQL

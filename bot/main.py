@@ -5,14 +5,14 @@ import logging
 import sys
 
 from aiogram import Bot, Dispatcher
-from config import BOT_TOKEN
+from schedule_bot.config import BOT_TOKEN
 
 # 📥 Импортируем все роутеры
-from bot.handlers.start import router as start_router
-from bot.handlers.waiter import router as waiter_router
-from bot.handlers.manager import router as manager_router
-from bot.handlers.director import router as director_router
-from bot.handlers.schedule import router as schedule_router
+from schedule_bot.bot.handlers.start import router as start_router
+from schedule_bot.bot.handlers.waiter import router as waiter_router
+from schedule_bot.bot.handlers.manager import router as manager_router
+from schedule_bot.bot.handlers.director import router as director_router
+from schedule_bot.bot.handlers.schedule import router as schedule_router
 
 # === Настройки логирования ===
 logging.basicConfig(level=logging.INFO)
