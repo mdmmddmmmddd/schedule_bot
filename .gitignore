@@ -1,0 +1,11 @@
+# игнорировать кэш, окружение и временные файлы
+__pycache__/
+*.pyc
+*.sqlite3
+.venv/
+.env
+data/output/
+*.xlsx
+.idea/
+.vscode/
+config.py 
